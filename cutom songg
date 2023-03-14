@@ -1,0 +1,135 @@
+use_synth :piano
+use_bpm 106
+
+
+
+
+
+
+
+#measure 8
+play :ds4
+sleep 0.25
+play :b3
+sleep 0.25
+play :ds4
+sleep 0.75
+sleep 0.25
+play :ds4
+sleep 0.75
+sleep 0.25
+play :ds4
+sleep 0.5
+play :b4
+sleep 0.5
+play :a4
+sleep 0.5
+
+sample :drum_bass_hard
+
+#measure 9
+play :gs4
+sleep 0.5
+play :gs4
+sleep 0.5
+sleep 1
+play :gs4
+sleep 0.5
+play :gs4
+sleep 0.5
+sleep 1
+
+sample :drum_bass_hard
+
+#measure 10
+play :gs4
+sleep 0.5
+play :as4
+sleep 0.25
+play :gs4
+sleep 0.25
+play :gs4
+sleep 0.5
+play :as4
+sleep 0.25
+play :gs4
+sleep 0.25
+play :gs4
+sleep 0.5
+play :gs4
+sleep 0.25
+play :gs4
+sleep 0.25
+play :gs4
+sleep 0.5
+play :as4
+sleep 0.5
+
+sample :drum_bass_hard
+
+#measure 11
+play :ds4
+sleep 0.5
+play :ds4
+sleep 1
+play :fs4
+sleep 0.5
+play :ds4
+sleep 0.5
+play :ds4
+sleep 1
+play :fs4
+sleep 0.5
+
+#measure 12
+play :ds4
+sleep 0.5
+play :ds4
+sleep 0.5
+sleep 1
+play :ds4
+sleep 0.5
+play :fs4
+sleep 0.5
+play :b4
+sleep 0.5
+play :as4
+sleep 0.5
+
+#measure 13
+play :gs4
+sleep 0.5
+play :gs4
+sleep 0.5
+sleep 1
+play :gs4
+sleep 0.5
+play :gs4
+sleep 0.5
+sleep 0.5
+play :gs4
+sleep 0.25
+play :gs4
+sleep 0.25
+
+#measure 14
+play :gs4
+sleep 0.5
+play :gs4
+sleep 0.25
+play :as4
+sleep 0.25
+play :gs4
+sleep 0.5
+play :as4
+sleep 0.25
+play :gs4
+sleep 0.25
+play :gs4
+sleep 0.5
+play :as4
+sleep 0.5
+play :gs4
+sleep 0.5
+play :as4
+sleep 0.5
