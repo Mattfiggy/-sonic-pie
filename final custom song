@@ -1,0 +1,219 @@
+#custom song
+
+
+
+use_synth :piano
+use_bpm 106
+
+
+
+
+
+
+
+#measure 8
+play :ds4
+sleep 0.25
+play :b3
+sleep 0.25
+play :ds4
+sleep 0.75
+sleep 0.25
+play :ds4
+sleep 0.75
+sleep 0.25
+play :ds4
+sleep 0.5
+play :b4
+sleep 0.5
+play :a4
+sleep 0.5
+
+sample :drum_bass_hard
+
+#measure 9
+play :gs4
+sleep 0.5
+play :gs4
+sleep 0.5
+sleep 1
+play :gs4
+sleep 0.5
+play :gs4
+sleep 0.5
+sleep 1
+
+sample :drum_bass_hard
+
+#measure 10
+play :gs4
+sleep 0.5
+play :as4
+sleep 0.25
+play :gs4
+sleep 0.25
+play :gs4
+sleep 0.5
+play :as4
+sleep 0.25
+play :gs4
+sleep 0.25
+play :gs4
+sleep 0.5
+play :gs4
+sleep 0.25
+play :gs4
+sleep 0.25
+play :gs4
+sleep 0.5
+play :as4
+sleep 0.5
+
+sample :drum_bass_hard
+
+#measure 11
+play :ds4
+sleep 0.5
+play :ds4
+sleep 1
+play :fs4
+sleep 0.5
+play :ds4
+sleep 0.5
+play :ds4
+sleep 1
+play :fs4
+sleep 0.5
+
+#measure 12
+play :ds4
+sleep 0.5
+play :ds4
+sleep 0.5
+sleep 1
+play :ds4
+sleep 0.5
+play :fs4
+sleep 0.5
+play :b4
+sleep 0.5
+play :as4
+sleep 0.5
+
+#measure 13
+play :gs4
+sleep 0.5
+play :gs4
+sleep 0.5
+sleep 1
+play :gs4
+sleep 0.5
+play :gs4
+sleep 0.5
+sleep 0.5
+play :gs4
+sleep 0.25
+play :gs4
+sleep 0.25
+
+#measure 14
+play :gs4
+sleep 0.5
+play :gs4
+sleep 0.25
+play :as4
+sleep 0.25
+play :gs4
+sleep 0.5
+play :as4
+sleep 0.25
+play :gs4
+sleep 0.25
+play :gs4
+sleep 0.5
+play :as4
+sleep 0.5
+play :gs4
+sleep 0.5
+play :as4
+sleep 0.5
+
+
+sleep 4
+
+
+
+
+
+
+
+"C:/Users/matthew_figueroa/Desktop/2Pac-Do-For-Love-_HD_-bass-G4_-minor-95bpm-452hz.wav"
+
+vocals = "C:/Users/matthew_figueroa/Desktop/do for love vocals2 final.wav"
+
+#secound song2
+use_bpm 96
+use_synth :sine
+
+
+
+
+play :eb3
+sleep 0.5
+play :eb3
+sleep 0.5
+play :eb3
+sleep 0.5
+play :d3
+sleep 1.5
+play :d3
+sleep 1.5
+play :g2
+sleep 0.5
+play :g2
+sleep 0.5
+play :g2
+sleep 0.5
+play :c3
+
+sample vocals
+
+sleep 1.5
+play :eb3
+sleep 0.5
+play :eb3
+sleep 0.5
+play :eb3
+sleep 0.5
+play :d3
+sleep 1.5
+play :d3
+sleep 1.5
+play :g2
+sleep 0.5
+play :g2
+sleep 0.5
+play :g2
+sleep 0.5
+play :c3
+
+
+use_bpm 96
+d = "C:/Users/matthew_figueroa/Downloads/2Pac - Do For Love (HD)-drums-G# minor-95bpm.wav"
+print (sample_duration d)
+
+
+
+
+a = 1
+4.times do
+  sample d, start: 0.05, finish: 0.06, amp: a
+  sleep 4
+  a = a - 0.25
+end
+
+sleep 5
+
+sample "C:/Users/matthew_figueroa/Downloads/2Pac-Do-For-Love-_HD_-bass-G_-minor-95bpm-452hz.wav"
+sample "C:/Users/matthew_figueroa/Desktop/do for love vocals2 final.wav"
+sample "C:/Users/matthew_figueroa/Downloads/2Pac - Do For Love (HD)-drums-G# minor-95bpm.wav"
